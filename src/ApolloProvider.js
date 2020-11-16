@@ -5,7 +5,7 @@ import App from "./App";
 
 
 const link = createHttpLink({ 
-  uri: "http://localhost:5000" 
+  uri: "https://glacial-shore-48971.herokuapp.com/" 
 });
 
 const authHeader = setContext(() => {
